@@ -35,8 +35,8 @@ int main() {
     printf("Carta cadastrada com sucesso! Dados da carta: \n");
     printf("População: %d\n", populacao);
     printf("Quantidade de pontos turísticos: %d\n", qnt_pontos_turisticos);
-    printf("Área: %f \n", area);
-    printf("PIB: %f \n", pib);
+    printf("Área: %lf \n", area);
+    printf("PIB: %lf \n", pib);
     
 
     return 0;
