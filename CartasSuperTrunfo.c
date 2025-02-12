@@ -28,11 +28,11 @@ int main() {
     printf("Digite o PIB: ");
     scanf("%f",&pib);
 
-    printf("Carta cadastrada com sucesso! Dados da carta: ")
-    printf("População: %d\n", populacao)
-    printf("Quantidade de pontos turísticos: %d\n", qnt_pontos_turisticos)
-    printf("Área: %f\n", area)
-    printf("PIB: %f\n", pib)
+    printf("Carta cadastrada com sucesso! Dados da carta: ");
+    printf("População: %d\n", populacao);
+    printf("Quantidade de pontos turísticos: %d\n", qnt_pontos_turisticos);
+    printf("Área: %f\n", area);
+    printf("PIB: %f\n", pib);
     
 
     return 0;
