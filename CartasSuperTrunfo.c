@@ -21,6 +21,8 @@ int main() {
     // instanciando as variaveis
     int populacao, qnt_pontos_turisticos;
     double area, pib;
+    double densidade, pib_per_capita;
+
     // armazenando os dados digitados pelo usuário nas variaveis
     printf("Digite a população: ");
     scanf("%d",&populacao);
@@ -31,13 +33,18 @@ int main() {
     printf("Digite o PIB: ");
     scanf("%lf",&pib);
 
+    // calculando novas propriedades
+    densidade = (double) populacao / area;
+    pib_per_capita = (double) pib / populacao;
+
     // Exibindo os dados
     printf("Carta cadastrada com sucesso! Dados da carta: \n");
     printf("População: %d\n", populacao);
     printf("Quantidade de pontos turísticos: %d\n", qnt_pontos_turisticos);
     printf("Área: %lf \n", area);
     printf("PIB: %lf \n", pib);
-    
+    printf("Densidade populacional: %lf \n", densidade);
+    printf("PIB per capita: %lf \n", pib_per_capita); 
 
     return 0;
 }
